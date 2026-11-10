@@ -1,0 +1,11 @@
+أمثلة رسائل خطأ للقراءة فقط، من ثلاثة أماكن مختلفة.
+
+1) الواجهة، تظهر في Console في المتصفح:
+Uncaught ReferenceError: toggleTheem is not defined
+    at script.js:8
+
+2) الخادم، يظهر في سجل الخادم:
+2026-01-15 10:32:07 ERROR contact.py: failed to save message from maryam@example.com
+
+3) قاعدة البيانات، ردها على جملة SQL خاطئة:
+sqlite3.OperationalError: table messages has no column named emial
